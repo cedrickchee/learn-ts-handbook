@@ -7,6 +7,7 @@ import { myCanvas } from './type-assertions';
 import { printText } from './literal-types';
 import { handleRequest } from './literal-inference';
 import { doSomething, liveDangerously } from './null-undefined';
+import { Direction, Fruit } from './enums';
 
 export {
   pc,
@@ -24,4 +25,6 @@ export {
   handleRequest,
   doSomething,
   liveDangerously,
+  Direction,
+  Fruit,
 };
