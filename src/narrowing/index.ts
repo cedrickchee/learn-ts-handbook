@@ -1,3 +1,4 @@
 import { padLeft } from './narrowing';
+import { printAll } from './type-guards';
 
-export { padLeft };
+export { padLeft, printAll };
