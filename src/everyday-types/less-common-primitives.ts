@@ -10,8 +10,8 @@ const oneHundred: bigint = BigInt(100);
 const anotherHundred: bigint = 100n;
 
 // symbol
-const firstName = Symbol('name');
-const secondName = Symbol('name');
+// const firstName = Symbol('name');
+// const secondName = Symbol('name');
 
 // Error: This condition will always return 'false' since the types
 // 'typeof firstName' and 'typeof secondName' have no overlap.
