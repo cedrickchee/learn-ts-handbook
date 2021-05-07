@@ -30,6 +30,8 @@ Code quality is set up for you with `prettier`, `husky`, and `lint-staged`. Adju
 
 Jest tests are set up to run with `npm test` or `yarn test`.
 
+If you want to run it in watch mode: `npm run test:watch`.
+
 ### Bundle Analysis
 
 [`size-limit`](https://github.com/ai/size-limit) is set up to calculate the real cost of your library with `npm run size` and visualize the bundle with `npm run analyze`.
