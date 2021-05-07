@@ -5,6 +5,7 @@ import { printCoord, printName } from './object-types';
 import printCoord2 from './interfaces';
 import { myCanvas } from './type-assertions';
 import { printText } from './literal-types';
+import { handleRequest } from './literal-inference';
 
 export {
   pc,
@@ -19,4 +20,5 @@ export {
   printCoord2,
   myCanvas,
   printText,
+  handleRequest,
 };
