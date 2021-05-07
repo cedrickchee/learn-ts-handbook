@@ -6,6 +6,7 @@ import printCoord2 from './interfaces';
 import { myCanvas } from './type-assertions';
 import { printText } from './literal-types';
 import { handleRequest } from './literal-inference';
+import { doSomething, liveDangerously } from './null-undefined';
 
 export {
   pc,
@@ -21,4 +22,6 @@ export {
   myCanvas,
   printText,
   handleRequest,
+  doSomething,
+  liveDangerously,
 };
