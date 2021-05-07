@@ -3,6 +3,7 @@ import { printId, printId2, welcomePeople, getFirstThree } from './union-types';
 import { greet, getFavoriteNumber } from './functions';
 import { printCoord, printName } from './object-types';
 import printCoord2 from './interfaces';
+import {myCanvas} from './type-assertions';
 
 export {
   pc,
@@ -15,4 +16,5 @@ export {
   printCoord,
   printName,
   printCoord2,
+  myCanvas,
 };
