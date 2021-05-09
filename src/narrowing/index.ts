@@ -8,6 +8,7 @@ import { x } from './assignments';
 import { randomStuff } from './control-flow-analysis';
 import { isFish } from './type-predicates';
 import { getArea } from './discriminated-unions';
+import { getArea as anotherGetArea } from './exhaustiveness-checking';
 
 export {
   padLeft,
@@ -21,4 +22,5 @@ export {
   randomStuff,
   isFish,
   getArea,
+  anotherGetArea,
 };
