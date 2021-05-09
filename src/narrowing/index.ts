@@ -5,6 +5,7 @@ import { example } from './equality-narrowing';
 import { move } from './in-operator-narrowing';
 import { logValue } from './instanceof-narrowing';
 import { x } from './assignments';
+import { randomStuff } from './control-flow-analysis';
 
 export {
   padLeft,
@@ -15,4 +16,5 @@ export {
   move,
   logValue,
   x,
+  randomStuff,
 };
