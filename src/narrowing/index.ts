@@ -6,6 +6,7 @@ import { move } from './in-operator-narrowing';
 import { logValue } from './instanceof-narrowing';
 import { x } from './assignments';
 import { randomStuff } from './control-flow-analysis';
+import { isFish } from './type-predicates';
 
 export {
   padLeft,
@@ -17,4 +18,5 @@ export {
   logValue,
   x,
   randomStuff,
+  isFish,
 };
