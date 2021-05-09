@@ -7,6 +7,7 @@ import { logValue } from './instanceof-narrowing';
 import { x } from './assignments';
 import { randomStuff } from './control-flow-analysis';
 import { isFish } from './type-predicates';
+import { getArea } from './discriminated-unions';
 
 export {
   padLeft,
@@ -19,4 +20,5 @@ export {
   x,
   randomStuff,
   isFish,
+  getArea,
 };
