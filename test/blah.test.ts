@@ -1,6 +1,7 @@
 import { sum } from '../src';
 import { pc } from '../src/everyday-types';
 import { padLeft } from '../src/narrowing';
+import { anotherGreeter, printToConsole } from '../src/more-functions';
 
 describe('blah', () => {
   it('works', () => {
@@ -18,5 +19,13 @@ describe('narrowing', () => {
   it('padLeft', () => {
     expect(padLeft(3, 'foobar')).toBe('   foobar');
     expect(padLeft(' ', 'foo')).toBe(' foo');
+  });
+});
+
+describe('more on function', () => {
+  it('greeter console.log the text "Hello, world"', () => {
+    console.log = jest.fn();
+    anotherGreeter(printToConsole);
+    expect(console.log).toHaveBeenCalledWith('Hello, world');
   });
 });
