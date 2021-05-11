@@ -6,6 +6,7 @@ import {
 import { doSomething } from './call-signatures';
 import { fn, CallOrConstruct } from './construct-signatures';
 import { firstElement, myMap, longest } from './generic-functions';
+import { minimumLength } from './constrained-values';
 
 export {
   greeter,
@@ -17,4 +18,5 @@ export {
   firstElement,
   myMap,
   longest,
+  minimumLength,
 };
