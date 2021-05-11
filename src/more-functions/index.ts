@@ -8,6 +8,7 @@ import { fn, CallOrConstruct } from './construct-signatures';
 import { firstElement, myMap, longest } from './generic-functions';
 import { minimumLength } from './constrained-values';
 import { combine } from './specifying-type-arguments';
+import { firstElement1 } from './writing-good-generic-functions';
 
 export {
   greeter,
@@ -21,4 +22,5 @@ export {
   longest,
   minimumLength,
   combine,
+  firstElement1,
 };
