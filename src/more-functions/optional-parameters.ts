@@ -13,8 +13,8 @@ numberToFixed(10); // OK
 
 declare function f(x?: number): void;
 // All OK
-f();
-f(10);
-f(undefined);
+// f();
+// f(10);
+// f(undefined);
 
 export { numberToFixed };
