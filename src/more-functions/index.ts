@@ -14,6 +14,7 @@ import { myForEach } from './optional-Parameters-callbacks';
 import { makeDate } from './function-overloads';
 import { len } from './writing-good-overloads';
 import { noop } from './unknown';
+import { multiply } from './rest-params-and-args';
 
 export {
   greeter,
@@ -33,4 +34,5 @@ export {
   makeDate,
   len,
   noop,
+  multiply,
 };
