@@ -16,6 +16,7 @@ import { len } from './writing-good-overloads';
 import { noop } from './unknown';
 import { multiply } from './rest-params-and-args';
 import { sum } from './parameter-destructuring';
+import { v1 } from './assignability-of-functions';
 
 export {
   greeter,
@@ -37,4 +38,5 @@ export {
   noop,
   multiply,
   sum,
+  v1,
 };
