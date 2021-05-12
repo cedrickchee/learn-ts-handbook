@@ -15,6 +15,7 @@ import { makeDate } from './function-overloads';
 import { len } from './writing-good-overloads';
 import { noop } from './unknown';
 import { multiply } from './rest-params-and-args';
+import { sum } from './parameter-destructuring';
 
 export {
   greeter,
@@ -35,4 +36,5 @@ export {
   len,
   noop,
   multiply,
+  sum,
 };
