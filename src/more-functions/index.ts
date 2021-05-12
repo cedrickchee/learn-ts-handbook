@@ -9,6 +9,7 @@ import { firstElement, myMap, longest } from './generic-functions';
 import { minimumLength } from './constrained-values';
 import { combine } from './specifying-type-arguments';
 import { firstElement1 } from './writing-good-generic-functions';
+import { numberToFixed } from './optional-parameters';
 
 export {
   greeter,
@@ -23,4 +24,5 @@ export {
   minimumLength,
   combine,
   firstElement1,
+  numberToFixed,
 };
