@@ -11,6 +11,7 @@ import { combine } from './specifying-type-arguments';
 import { firstElement1 } from './writing-good-generic-functions';
 import { numberToFixed } from './optional-parameters';
 import { myForEach } from './optional-Parameters-callbacks';
+import { makeDate } from './function-overloads';
 
 export {
   greeter,
@@ -27,4 +28,5 @@ export {
   firstElement1,
   numberToFixed,
   myForEach,
+  makeDate,
 };
