@@ -13,6 +13,7 @@ import { numberToFixed } from './optional-parameters';
 import { myForEach } from './optional-Parameters-callbacks';
 import { makeDate } from './function-overloads';
 import { len } from './writing-good-overloads';
+import { noop } from './unknown';
 
 export {
   greeter,
@@ -31,4 +32,5 @@ export {
   myForEach,
   makeDate,
   len,
+  noop,
 };
