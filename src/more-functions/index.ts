@@ -10,6 +10,7 @@ import { minimumLength } from './constrained-values';
 import { combine } from './specifying-type-arguments';
 import { firstElement1 } from './writing-good-generic-functions';
 import { numberToFixed } from './optional-parameters';
+import { myForEach } from './optional-Parameters-callbacks';
 
 export {
   greeter,
@@ -25,4 +26,5 @@ export {
   combine,
   firstElement1,
   numberToFixed,
+  myForEach,
 };
