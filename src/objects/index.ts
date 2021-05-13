@@ -1,3 +1,4 @@
 import { greet } from './object-types';
+import { getShape, paintShape } from './property-modifiers';
 
-export { greet };
+export { greet, paintShape, getShape };

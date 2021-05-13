@@ -7,7 +7,7 @@ import {
   firstElement,
   myMap,
 } from '../src/more-functions';
-import { greet } from '../src/objects';
+import { greet, paintShape, getShape } from '../src/objects';
 
 describe('blah', () => {
   it('works', () => {
@@ -56,5 +56,12 @@ describe('more on function', () => {
 describe('object types', () => {
   it('greet', () => {
     expect(greet({ name: 'Alina', age: 23 })).toBe('Hello Alina');
+  });
+
+  it('paintShape', () => {
+    console.log = jest.fn();
+    const shape = getShape();
+    paintShape({ shape, xPos: 100 });
+    expect(console.log).toHaveBeenCalledWith({ shape: { name: 'circle' }, xPos: 100 });
   });
 });
