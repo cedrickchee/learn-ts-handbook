@@ -7,6 +7,7 @@ import {
   firstElement,
   myMap,
 } from '../src/more-functions';
+import { greet } from '../src/objects';
 
 describe('blah', () => {
   it('works', () => {
@@ -49,5 +50,11 @@ describe('more on function', () => {
     // 'parsed' is of type 'number[]'
     const parsed = myMap(['1', '2', '3'], n => parseInt(n));
     expect(typeof parsed[0]).toBe('number');
+  });
+});
+
+describe('object types', () => {
+  it('greet', () => {
+    expect(greet({ name: 'Alina', age: 23 })).toBe('Hello Alina');
   });
 });
