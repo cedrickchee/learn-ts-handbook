@@ -38,16 +38,16 @@ describe('more on function', () => {
 describe('more on function', () => {
   it('firstElement', () => {
     const s = firstElement(['a', 'b', 'c']);
-    expect(typeof s).toBe("string");
+    expect(typeof s).toBe('string');
 
     const n = firstElement([1, 2, 3]);
-    expect(typeof n).toBe("number");
+    expect(typeof n).toBe('number');
   });
 
   it('myMap', () => {
     // Parameter 'n' is of type 'string'
     // 'parsed' is of type 'number[]'
-    const parsed = myMap(["1", "2", "3"], (n) => parseInt(n));
-    expect(typeof parsed[0]).toBe("number");
+    const parsed = myMap(['1', '2', '3'], n => parseInt(n));
+    expect(typeof parsed[0]).toBe('number');
   });
 });
