@@ -39,12 +39,12 @@ setCoordinate([1, 2]);
 setCoordinate([10, 20, 100]);
 
 // Tuples can also have rest elements, which have to be an array/tuple type.
-type StringNumberBooleans = [string, number, ...boolean[]];
-type StringBooleansNumber = [string, ...boolean[], number];
-type BooleansStringNumber = [...boolean[], string, number];
+// type StringNumberBooleans = [string, number, ...boolean[]];
+// type StringBooleansNumber = [string, ...boolean[], number];
+// type BooleansStringNumber = [...boolean[], string, number];
 
 // `readonly` Tuple Types
-let point = [3, 4] as const;
+// let point = [3, 4] as const;
 
 function distanceFromOrigin([x, y]: [number, number]) {
   return Math.sqrt(x ** 2 + y ** 2);
