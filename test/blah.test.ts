@@ -8,6 +8,7 @@ import {
   myMap,
 } from '../src/more-functions';
 import { greet, paintShape, getShape } from '../src/objects';
+import { myIdentity } from '../src/types-from-types';
 
 describe('blah', () => {
   it('works', () => {
@@ -63,5 +64,11 @@ describe('object types', () => {
     const shape = getShape();
     paintShape({ shape, xPos: 100 });
     expect(console.log).toHaveBeenCalledWith({ shape: { name: 'circle' }, xPos: 100 });
+  });
+});
+
+describe('types from types', () => {
+  it('generics', () => {
+    expect(myIdentity("hello, generics")).toBe('hello, generics');
   });
 });
