@@ -8,7 +8,7 @@ import {
   myMap,
 } from '../src/more-functions';
 import { greet, paintShape, getShape } from '../src/objects';
-import { myIdentity } from '../src/types-from-types';
+import { myIdentity, myGenericNumber, stringNumeric } from '../src/types-from-types';
 
 describe('blah', () => {
   it('works', () => {
@@ -70,5 +70,13 @@ describe('object types', () => {
 describe('types from types', () => {
   it('generics', () => {
     expect(myIdentity("hello, generics")).toBe('hello, generics');
+  });
+
+  it('returns sum of two numbers', () => {
+    expect(myGenericNumber.add(31, 11)).toBe(42);
+  });
+
+  it('returns concatenated string', () => {
+    expect(stringNumeric.add(stringNumeric.zeroValue, 'hello')).toBe('hello');
   });
 });
