@@ -4,6 +4,7 @@ import { doSomething } from './readonly-properties';
 import { NumberDictionary } from './index-signature';
 import { ColorfulCircle } from './extending-types';
 import { draw } from './intersection-types';
+import { errorProneTypeAssertion } from './generic-object-types';
 
 export {
   greet,
@@ -13,4 +14,5 @@ export {
   NumberDictionary,
   ColorfulCircle,
   draw,
+  errorProneTypeAssertion,
 };
